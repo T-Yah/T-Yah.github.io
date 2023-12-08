@@ -1,0 +1,125 @@
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* ========================================= Global =========================================*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body h1{
+    color: #282f59;
+}
+
+body p{
+    color: #7C7C7C
+}
+
+body a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+/* gradient colors */
+:root{
+    --gradient-1 :linear-gradient(to bottom right, rgb(107, 107, 255), blue);
+
+    --gradient-2 : linear-gradient(to bottom right, rgb(80, 80, 255), rgb(253, 119, 119));
+
+    --gradient-3 :  linear-gradient(to bottom right, rgb(255, 207, 145),rgb(255, 111, 92));
+
+    --gradient-4 : linear-gradient(to bottom right, #2af598, #009efd);
+}
+
+/* ========================================= nav bar =========================================*/
+
+.navbar{
+    background-color: #0A100D;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 0px 50px 20px;
+    align-items: center;
+}
+
+.navbar ul {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li {
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.logo{
+    width: 400px;
+}
+
+.ctn {
+    padding: 10px 20px;
+    background:linear-gradient(to bottom right,rgb(238, 38, 102), rgb(29, 105, 168));
+    border-radius: 50px;
+}
+
+.ctn:hover{
+    background:linear-gradient(to bottom right, rgb(29, 105, 168), rgb(238, 38, 102));
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+/* Hover effect on dropdown button */
+.dropbtn:hover {
+    color: #f1f1f1;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #242526; /* Match the navbar background color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+/* Change color on hover for dropdown links */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #3a3b3c; /* Match the dropdown background color */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

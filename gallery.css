@@ -36,46 +36,6 @@ body a {
     --gradient-4 : linear-gradient(to bottom right, #2af598, #009efd);
 }
 
-/* ========================================= Nav Bar =========================================*/
-
-.navbar{
-    background-color: #0A100D;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    padding: 0px 50px;
-    align-items: center;
-}
-
-.navbar ul {
-    flex: 1;
-    text-align: right;
-}
-
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 25px;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-.logo{
-    width: 400px;
-}
-
-.ctn {
-    padding: 10px 20px;
-    background:linear-gradient(to bottom right,rgb(238, 38, 102), rgb(29, 105, 168));
-    border-radius: 50px;
-}
-
-.ctn:hover{
-    background:linear-gradient(to bottom right, rgb(29, 105, 168), rgb(238, 38, 102));
-}
-
 /* ========================================= Gallery =========================================*/
 
 

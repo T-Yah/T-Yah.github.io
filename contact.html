@@ -6,17 +6,29 @@
     <!-- Awesome Font -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- CSS -->
+    <link rel="stylesheet" href="./nav.css">
     <link rel="stylesheet" href="./style.css">
     <title>Contact Us - Best Choice Millwork</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <img src="./images/bestchoice.PNG" alt="" class="logo" />
+            <img src="./images/bc-logo.png" alt="" class="logo" />
             <ul class="nav-list">
-                <!-- <li><a herf="#">Who we Are</a></li> -->
                 <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Gallery</a>
+                    <div class="dropdown-content">
+                        <a href="gallery.html">All Photos</a>
+                        <a href="./photo_galleries/clinic_gallery.html">Clinics</a>
+                        <a href="./photo_galleries/office_gallery.html">Offices</a>
+                        <a href="./photo_galleries/restaurant_gallery.html">Restaurants</a>
+                        <a href="./photo_galleries/dental_gallery.html">Dental</a>
+                        <a href="./photo_galleries/pharmacies_gallery.html">Pharmacies</a>
+                        <a href="./photo_galleries/service_gallery.html">Services Businesses</a>
+                        <a href="./photo_galleries/unfinished_gallery.html">If You're Curious</a>
+                    </div>
+                </li>
                 <li><a href="#" class="ctn">Contact Us</a></li>
             </ul>
         </nav>
