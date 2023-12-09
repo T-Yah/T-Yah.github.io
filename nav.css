@@ -27,13 +27,13 @@ body a {
 
 /* gradient colors */
 :root{
-    --gradient-1 :linear-gradient(to bottom right, rgb(107, 107, 255), blue);
+    --gradient-1: linear-gradient(to bottom right, #3333ff 0%, #66ffcc 100%);
 
-    --gradient-2 : linear-gradient(to bottom right, rgb(80, 80, 255), rgb(253, 119, 119));
+    --gradient-2 : linear-gradient(to bottom right, #009999 0%, #99ff33 100%);
 
-    --gradient-3 :  linear-gradient(to bottom right, rgb(255, 207, 145),rgb(255, 111, 92));
+    --gradient-3 : linear-gradient(to bottom right, #6600cc 0%, #ff99ff 100%);
 
-    --gradient-4 : linear-gradient(to bottom right, #2af598, #009efd);
+    --gradient-4 : linear-gradient(to bottom right, #ff9900 0%, #ff3399 100%);
 }
 
 /* ========================================= nav bar =========================================*/
@@ -70,12 +70,12 @@ body a {
 
 .ctn {
     padding: 10px 20px;
-    background:linear-gradient(to bottom right,rgb(238, 38, 102), rgb(29, 105, 168));
+    background: linear-gradient(to bottom right, #0000ff 0%, #ff0066 100%);
     border-radius: 50px;
 }
 
 .ctn:hover{
-    background:linear-gradient(to bottom right, rgb(29, 105, 168), rgb(238, 38, 102));
+    background: linear-gradient(to bottom right,  #ff0066 0%, #0000ff 100%);
 }
 
 /* Style the dropdown button */

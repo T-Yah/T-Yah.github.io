@@ -27,13 +27,13 @@ body a {
 
 /* gradient colors */
 :root{
-    --gradient-1 :linear-gradient(to bottom right, rgb(107, 107, 255), blue);
+    --gradient-1: linear-gradient(to bottom right, #3333ff 0%, #66ffcc 100%);
 
-    --gradient-2 : linear-gradient(to bottom right, rgb(80, 80, 255), rgb(253, 119, 119));
+    --gradient-2 : linear-gradient(to bottom right, #009999 0%, #99ff33 100%);
 
-    --gradient-3 :  linear-gradient(to bottom right, rgb(255, 207, 145),rgb(255, 111, 92));
+    --gradient-3 : linear-gradient(to bottom right, #6600cc 0%, #ff99ff 100%);
 
-    --gradient-4 : linear-gradient(to bottom right, #2af598, #009efd);
+    --gradient-4 : linear-gradient(to bottom right, #ff9900 0%, #ff3399 100%);
 }
 
 /* ========================================= header =========================================*/
@@ -172,19 +172,19 @@ body a {
     font-weight: 400;
 }
 
-.mobileapp{
+.experience{
     background: var(--gradient-1)
 }
 
-.webdesign{
+.completed-proj{
     background: var(--gradient-2)
 }
 
-.marketing{
+.licensed{
     background: var(--gradient-3)
 }
 
-.branding{
+.high-quality{
     background: var(--gradient-4)
 }
 
