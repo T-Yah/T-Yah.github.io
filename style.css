@@ -274,29 +274,3 @@ body a {
 .details i{
     font-size: 40px;
 }
-
-/* ========================================= Contact Up =========================================*/
-.contact{
-    margin-top: 80px;
-    background-image: url(./images/footer-agency.png);
-    background-size: cover;
-}
-
-.col-4{
-    /* background: cornflowerblue; */
-    min-height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.footer1 h1{
-    font-size: 40px;
-}
-
-.footer2 h4, .footer3 h4, .footer4 h4{
-    color: grey;
-    font-weight:500;
-
-}
-
