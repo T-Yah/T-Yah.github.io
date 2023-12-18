@@ -10,6 +10,10 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url(./images/footer-agency.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
 }
 
 body h1{

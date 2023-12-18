@@ -27,27 +27,19 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// Function to handle navigation clicks
-// function navigateToSection(sectionId) {
-//     const section = document.getElementById(sectionId);
-//     if (section) {
-//         section.scrollIntoView({ behavior: "smooth" });
-//     }
-// }
+// Add event listeners to the slideshow container
+document.getElementById("mySlideShow").addEventListener("click", function (event) {
+  let x = event.clientX;
+  let containerWidth = this.offsetWidth;
+  
+  // Calculate the clicked position within the container
+  let clickX = x - this.getBoundingClientRect().left;
 
-// Event listeners for navigation clicks
-// document.getElementById("nav-offer").addEventListener("click", function () {
-//     navigateToSection("offer");
-// });
-
-// document.getElementById("nav-specialties").addEventListener("click", function () {
-//     navigateToSection("specialties");
-// });
-
-// document.getElementById("nav-gallery").addEventListener("click", function () {
-//     navigateToSection("gallery-section");
-// });
-
-// document.getElementById("nav-contact-us").addEventListener("click", function () {
-//     navigateToSection("contact");
-// });
+  // If clicked on the left half of the container, go to the previous slide
+  // If clicked on the right half of the container, go to the next slide
+  if (clickX < containerWidth / 2) {
+    plusSlides(-1);
+  } else {
+    plusSlides(1);
+  }
+});
