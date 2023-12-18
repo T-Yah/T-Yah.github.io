@@ -36,8 +36,31 @@ body a {
     --gradient-4 : linear-gradient(to bottom right, #ff9900 0%, #ff3399 100%);
 }
 
-.contact {
+/* =============================================================================================== */
+
+#upper {
+    padding-top: 200px;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.map-section,
+.contact-row {
+    box-sizing: border-box;
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.map-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.map-section{
+    border-right: 2px solid #282f59;
 }
 
 .contact-row {
@@ -45,7 +68,6 @@ body a {
 }
 
 .contact-text {
-    width: 25%;
     padding: 20px;
 }
 
@@ -55,13 +77,31 @@ body a {
     box-sizing: border-box;
 }
 
-.contact-info-group {
-    display: flex;
-    flex-direction: column;
-}
-
 .contact-email,
 .contact-phone,
 .contact-address {
     margin-bottom: 15px;
 }
+
+.contact-row h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.contact-row h4{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.contact-info-group h4{
+    font-weight: bold;
+    color: #282f59
+}
+
+.contact-address p{
+    font-weight: normal;
+    color: #282f59;
+}
+
+/* =============================================================================================== */

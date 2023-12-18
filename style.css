@@ -33,7 +33,7 @@ body a {
 
     --gradient-3 : linear-gradient(to bottom right, #6600cc 0%, #ff99ff 100%);
 
-    --gradient-4 : linear-gradient(to bottom right, #ff9900 0%, #ff3399 100%);
+    --gradient-4 : linear-gradient(to bottom right, #ff3399 0%, #ff9900 100%);
 }
 
 /* ========================================= header =========================================*/
