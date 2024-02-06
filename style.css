@@ -42,6 +42,7 @@ body a {
     display: flex;
     align-items: center;
     padding-top: 10rem;
+    background-color: #E6E6F3;
 }
 
 .header-content{
@@ -58,6 +59,7 @@ body a {
 .header-content p {
     margin-bottom: 20px;
     line-height: 1.75;
+    color: black;
 }
 
 /* Slideshow container */
