@@ -39,7 +39,7 @@ body a {
 /* ========================================= nav bar =========================================*/
 
 .navbar{
-    background-color: #0A100D;
+    background-color: #222724;
     position: absolute;
     top: 0;
     left: 0;
@@ -129,6 +129,9 @@ body a {
     margin-top: 80px;
     background-image: url(./images/footer-agency.png);
     background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position:  center;
 }
 
 .contact .col-4{

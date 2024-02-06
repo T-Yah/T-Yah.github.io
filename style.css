@@ -57,6 +57,7 @@ body a {
 
 .header-content p {
     margin-bottom: 20px;
+    line-height: 1.75;
 }
 
 /* Slideshow container */
@@ -136,6 +137,9 @@ body a {
 
 /* ========================================= offer =========================================*/
 
+.offer-row{
+    background-color: #E6E6F3;
+}
 .offer-grid {
     flex-basis: 50%;
     padding: 3rem;
@@ -215,7 +219,9 @@ body a {
 }
 
 .offer-content p {
+    color: black;
     margin-bottom: 20px;
+    line-height: 1.75;
 }
 
 /* ========================================= Specialties =========================================*/
